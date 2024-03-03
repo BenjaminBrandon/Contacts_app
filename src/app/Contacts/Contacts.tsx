@@ -1,10 +1,12 @@
 import React from 'react';
+import SearchBar from './SearchBar/SearchBar';
+import { Container } from 'react-bootstrap';
 
 const Contacts = () => {
   return (
-    <div>
-      <h1>Contacts</h1>
-    </div>
+    <Container>
+      <SearchBar />
+    </Container>
   );
 };
 
