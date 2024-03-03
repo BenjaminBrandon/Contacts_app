@@ -6,24 +6,15 @@ const SearchBar = () => {
   return (
     <Container className={styles.SearchBarContainer}>
       <FloatingLabel
-        controlId="floatingInput"
-        label="Email address"
-        className="mb-3"
+        controlId="floatingSearch"
+        label="Search"
       >
         <Form.Control
-          type="email"
-          placeholder="name@example.com"
+          type="search"
+          placeholder="Name"
         />
       </FloatingLabel>
-      <FloatingLabel
-        controlId="floatingPassword"
-        label="Password"
-      >
-        <Form.Control
-          type="password"
-          placeholder="Password"
-        />
-      </FloatingLabel>
+      <Button className={styles.SearchButton}>Submit</Button>
     </Container>
   );
 };
