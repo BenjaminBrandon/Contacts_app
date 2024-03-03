@@ -5,6 +5,7 @@ import { FloatingLabel, Form, Button, Container } from 'react-bootstrap';
 const SearchBar = () => {
   return (
     <Container className={styles.SearchBarContainer}>
+      <Button className={styles.SearchButton}>Submit</Button>
       <FloatingLabel
         controlId="floatingSearch"
         label="Search"
@@ -14,7 +15,6 @@ const SearchBar = () => {
           placeholder="Name"
         />
       </FloatingLabel>
-      <Button className={styles.SearchButton}>Submit</Button>
     </Container>
   );
 };
