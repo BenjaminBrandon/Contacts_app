@@ -10,11 +10,14 @@ import {
 
 const SearchBar = () => {
   return (
-    <Navbar className={styles.SearchBarContainer}>
+    <Navbar
+      className={styles.SearchBarContainer}
+      fixed="top"
+    >
       <Container>
         <Navbar.Brand href="#home">Contacts</Navbar.Brand>
       </Container>
-      <Container>
+      <Container className={styles.SearchField}>
         <Button className={styles.SearchButton}>Submit</Button>
         <FloatingLabel
           controlId="floatingSearch"
