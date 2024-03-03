@@ -1,21 +1,32 @@
 import React, { useState } from 'react';
 import styles from './SearchBar.module.scss';
-import { FloatingLabel, Form, Button, Container } from 'react-bootstrap';
+import {
+  FloatingLabel,
+  Form,
+  Button,
+  Container,
+  Navbar,
+} from 'react-bootstrap';
 
 const SearchBar = () => {
   return (
-    <Container className={styles.SearchBarContainer}>
-      <Button className={styles.SearchButton}>Submit</Button>
-      <FloatingLabel
-        controlId="floatingSearch"
-        label="Search"
-      >
-        <Form.Control
-          type="search"
-          placeholder="Name"
-        />
-      </FloatingLabel>
-    </Container>
+    <Navbar className={styles.SearchBarContainer}>
+      <Container>
+        <Navbar.Brand href="#home">Contacts</Navbar.Brand>
+      </Container>
+      <Container>
+        <Button className={styles.SearchButton}>Submit</Button>
+        <FloatingLabel
+          controlId="floatingSearch"
+          label="Search"
+        >
+          <Form.Control
+            type="search"
+            placeholder="Name"
+          />
+        </FloatingLabel>
+      </Container>
+    </Navbar>
   );
 };
 

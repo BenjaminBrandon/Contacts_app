@@ -10,9 +10,12 @@ const Contacts = () => {
     setSearch(text);
   };
   return (
-    <Container>
-      <SearchBar searchFn={searchFn} search={search} />
-    </Container>
+    <div>
+      <SearchBar
+        searchFn={searchFn}
+        search={search}
+      />
+    </div>
   );
 };
 
