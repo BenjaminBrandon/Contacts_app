@@ -41,5 +41,5 @@ export default SearchBar;
   _search updates state on change
   _make search realtime responsive returning all results for current search in type field
   _add styles
-  _put into a navbar.
+  _put into a navbar...
 */
