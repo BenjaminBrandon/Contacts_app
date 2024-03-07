@@ -111,35 +111,41 @@ export const AddContact = () => {
             </Col>
           </Row>
           <Row md="2">
-            <FloatingLabel
-              controlId="floatingSearch"
-              label="State"
-            >
-              <Form.Control
-                type="text"
-                placeholder="State"
-              />
-            </FloatingLabel>
-            <FloatingLabel
-              controlId="floatingSearch"
-              label="Zip code"
-            >
-              <Form.Control
-                type="text"
-                placeholder="Zip code"
-              />
-            </FloatingLabel>
+            <Col>
+              <FloatingLabel
+                controlId="floatingSearch"
+                label="State"
+              >
+                <Form.Control
+                  type="text"
+                  placeholder="State"
+                />
+              </FloatingLabel>
+            </Col>
+            <Col>
+              <FloatingLabel
+                controlId="floatingSearch"
+                label="Zip code"
+              >
+                <Form.Control
+                  type="text"
+                  placeholder="Zip code"
+                />
+              </FloatingLabel>
+            </Col>
           </Row>
           <Row>
-            <FloatingLabel
-              controlId="floatingSearch"
-              label="Birthday"
-            >
-              <Form.Control
-                type="date"
-                placeholder="Birthday"
-              />
-            </FloatingLabel>
+            <Col>
+              <FloatingLabel
+                controlId="floatingSearch"
+                label="Birthday"
+              >
+                <Form.Control
+                  type="date"
+                  placeholder="Birthday"
+                />
+              </FloatingLabel>
+            </Col>
           </Row>
           <Button>Submit</Button>
         </Form>
