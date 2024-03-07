@@ -34,6 +34,26 @@ export const AddContact = () => {
             />
           </FloatingLabel>
         </Row>
+        <Row md="3">
+          <FloatingLabel
+            controlId="floatingSearch"
+            label="Home phone number"
+          >
+            <Form.Control
+              type="text"
+              placeholder="Home phone number"
+            />
+          </FloatingLabel>
+          <FloatingLabel
+            controlId="floatingSearch"
+            label="Cell phone number"
+          >
+            <Form.Control
+              type="text"
+              placeholder="Cell phone number"
+            />
+          </FloatingLabel>
+        </Row>
       </Form>
     </Container>
   );
