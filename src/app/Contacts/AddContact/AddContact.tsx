@@ -52,33 +52,39 @@ export const AddContact = () => {
             </Col>
           </Row>
           <Row md="3">
-            <FloatingLabel
-              controlId="floatingSearch"
-              label="Home phone"
-            >
-              <Form.Control
-                type="text"
-                placeholder="Home phone"
-              />
-            </FloatingLabel>
-            <FloatingLabel
-              controlId="floatingSearch"
-              label="Cell phone"
-            >
-              <Form.Control
-                type="text"
-                placeholder="Cell phone"
-              />
-            </FloatingLabel>
-            <FloatingLabel
-              controlId="floatingSearch"
-              label="Work phone"
-            >
-              <Form.Control
-                type="text"
-                placeholder="Work phone"
-              />
-            </FloatingLabel>
+            <Col>
+              <FloatingLabel
+                controlId="floatingSearch"
+                label="Home phone"
+              >
+                <Form.Control
+                  type="text"
+                  placeholder="Home phone"
+                />
+              </FloatingLabel>
+            </Col>
+            <Col>
+              <FloatingLabel
+                controlId="floatingSearch"
+                label="Cell phone"
+              >
+                <Form.Control
+                  type="text"
+                  placeholder="Cell phone"
+                />
+              </FloatingLabel>
+            </Col>
+            <Col>
+              <FloatingLabel
+                controlId="floatingSearch"
+                label="Work phone"
+              >
+                <Form.Control
+                  type="text"
+                  placeholder="Work phone"
+                />
+              </FloatingLabel>
+            </Col>
           </Row>
           <Row md="2">
             <FloatingLabel
