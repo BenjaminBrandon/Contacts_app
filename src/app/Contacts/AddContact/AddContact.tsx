@@ -37,20 +37,29 @@ export const AddContact = () => {
         <Row md="3">
           <FloatingLabel
             controlId="floatingSearch"
-            label="Home phone number"
+            label="Home phone"
           >
             <Form.Control
               type="text"
-              placeholder="Home phone number"
+              placeholder="Home phone"
             />
           </FloatingLabel>
           <FloatingLabel
             controlId="floatingSearch"
-            label="Cell phone number"
+            label="Cell phone"
           >
             <Form.Control
               type="text"
-              placeholder="Cell phone number"
+              placeholder="Cell phone"
+            />
+          </FloatingLabel>
+          <FloatingLabel
+            controlId="floatingSearch"
+            label="Work phone"
+          >
+            <Form.Control
+              type="text"
+              placeholder="Work phone"
             />
           </FloatingLabel>
         </Row>
