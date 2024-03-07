@@ -63,7 +63,7 @@ export const AddContact = () => {
             />
           </FloatingLabel>
         </Row>
-        <Row>
+        <Row md="2">
           <FloatingLabel
             controlId="floatingSearch"
             label="Street address"
@@ -71,6 +71,46 @@ export const AddContact = () => {
             <Form.Control
               type="text"
               placeholder="Street address"
+            />
+          </FloatingLabel>
+          <FloatingLabel
+            controlId="floatingSearch"
+            label="City"
+          >
+            <Form.Control
+              type="text"
+              placeholder="City"
+            />
+          </FloatingLabel>
+        </Row>
+        <Row md="2">
+          <FloatingLabel
+            controlId="floatingSearch"
+            label="State"
+          >
+            <Form.Control
+              type="text"
+              placeholder="State"
+            />
+          </FloatingLabel>
+          <FloatingLabel
+            controlId="floatingSearch"
+            label="Zip code"
+          >
+            <Form.Control
+              type="text"
+              placeholder="Zip code"
+            />
+          </FloatingLabel>
+        </Row>
+        <Row>
+          <FloatingLabel
+            controlId="floatingSearch"
+            label="Birthday"
+          >
+            <Form.Control
+              type="date"
+              placeholder="Birthday"
             />
           </FloatingLabel>
         </Row>
