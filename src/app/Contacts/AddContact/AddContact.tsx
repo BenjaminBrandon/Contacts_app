@@ -87,24 +87,28 @@ export const AddContact = () => {
             </Col>
           </Row>
           <Row md="2">
-            <FloatingLabel
-              controlId="floatingSearch"
-              label="Street address"
-            >
-              <Form.Control
-                type="text"
-                placeholder="Street address"
-              />
-            </FloatingLabel>
-            <FloatingLabel
-              controlId="floatingSearch"
-              label="City"
-            >
-              <Form.Control
-                type="text"
-                placeholder="City"
-              />
-            </FloatingLabel>
+            <Col>
+              <FloatingLabel
+                controlId="floatingSearch"
+                label="Street address"
+              >
+                <Form.Control
+                  type="text"
+                  placeholder="Street address"
+                />
+              </FloatingLabel>
+            </Col>
+            <Col>
+              <FloatingLabel
+                controlId="floatingSearch"
+                label="City"
+              >
+                <Form.Control
+                  type="text"
+                  placeholder="City"
+                />
+              </FloatingLabel>
+            </Col>
           </Row>
           <Row md="2">
             <FloatingLabel
