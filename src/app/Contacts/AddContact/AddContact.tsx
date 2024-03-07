@@ -63,6 +63,17 @@ export const AddContact = () => {
             />
           </FloatingLabel>
         </Row>
+        <Row>
+          <FloatingLabel
+            controlId="floatingSearch"
+            label="Street address"
+          >
+            <Form.Control
+              type="text"
+              placeholder="Street address"
+            />
+          </FloatingLabel>
+        </Row>
       </Form>
     </Container>
   );
