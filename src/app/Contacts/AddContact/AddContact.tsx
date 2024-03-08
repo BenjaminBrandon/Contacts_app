@@ -16,7 +16,10 @@ export const AddContact = () => {
     <Card className={styles.addContactCard}>
       <CardBody>
         <Form>
-          <Row md="3">
+          <Row
+            md="3"
+            className="g-3"
+          >
             <Col>
               <FloatingLabel
                 controlId="floatingSearch"
@@ -51,7 +54,10 @@ export const AddContact = () => {
               </FloatingLabel>
             </Col>
           </Row>
-          <Row md="3">
+          <Row
+            gap={3}
+            md="3"
+          >
             <Col>
               <FloatingLabel
                 controlId="floatingSearch"
