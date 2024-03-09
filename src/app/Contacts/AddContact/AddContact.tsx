@@ -6,10 +6,7 @@ export const AddContact = () => {
   return (
     <Container className={styles.addContactCard}>
       <Form>
-        <Row
-          md="3"
-          className="g-3"
-        >
+        <Row className="g-3 p-2 md-3">
           <Col>
             <FloatingLabel
               controlId="floatingSearch"
@@ -44,10 +41,7 @@ export const AddContact = () => {
             </FloatingLabel>
           </Col>
         </Row>
-        <Row
-          gap={3}
-          md="3"
-        >
+        <Row className="g-3 p-2 md-3">
           <Col>
             <FloatingLabel
               controlId="floatingSearch"
@@ -82,7 +76,7 @@ export const AddContact = () => {
             </FloatingLabel>
           </Col>
         </Row>
-        <Row md="2">
+        <Row className="g-3 p-2 md-3">
           <Col>
             <FloatingLabel
               controlId="floatingSearch"
@@ -106,7 +100,7 @@ export const AddContact = () => {
             </FloatingLabel>
           </Col>
         </Row>
-        <Row md="2">
+        <Row className="g-3 p-2 md-3">
           <Col>
             <FloatingLabel
               controlId="floatingSearch"
@@ -130,7 +124,7 @@ export const AddContact = () => {
             </FloatingLabel>
           </Col>
         </Row>
-        <Row>
+        <Row className="p-2">
           <Col>
             <FloatingLabel
               controlId="floatingSearch"
