@@ -16,6 +16,7 @@ const SearchBar = () => {
     >
       <Container>
         <Navbar.Brand href="#home">Contacts</Navbar.Brand>
+        <Button>New Contact</Button>
       </Container>
       <Container className={styles.SearchField}>
         <Button className={styles.SearchButton}>Submit</Button>
