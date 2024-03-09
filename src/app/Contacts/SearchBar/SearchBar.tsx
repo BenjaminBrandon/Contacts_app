@@ -32,7 +32,7 @@ const SearchBar = () => {
         show={show}
         onHide={handleClose}
       >
-        <ModalHeader>New Contact</ModalHeader>
+        <ModalHeader closeButton>New Contact</ModalHeader>
         <ModalBody>
           <AddContact />
         </ModalBody>
