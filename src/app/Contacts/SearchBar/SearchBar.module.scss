@@ -34,9 +34,9 @@
   touch-action: manipulation;
   background-image: linear-gradient(
     135deg,
-    color(display-p3 0.572549 0.415686 1) 0%,
-    color(display-p3 1 0.466667 0.690196) 50%,
-    color(display-p3 1 0.701961 0.403922) 100%
+    rgb(255, 142, 85) 0%,
+    rgb(253, 85, 89) 50%,
+    rgb(220, 74, 133) 100%
   );
   border-radius: 8px;
   color: #fff;
