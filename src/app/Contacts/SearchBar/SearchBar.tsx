@@ -37,7 +37,7 @@ const SearchBar = () => {
           <AddContact />
         </ModalBody>
         <ModalFooter>
-          <Button>Add</Button>
+          <Button onClick={handleClose}>Add</Button>
         </ModalFooter>
       </Modal>
       <Container className={styles.SearchField}>
