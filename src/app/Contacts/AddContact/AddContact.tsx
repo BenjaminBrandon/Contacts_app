@@ -153,7 +153,6 @@ export const AddContact = () => {
               </FloatingLabel>
             </Col>
           </Row>
-          <Button>Submit</Button>
         </Form>
       </CardBody>
     </Card>
