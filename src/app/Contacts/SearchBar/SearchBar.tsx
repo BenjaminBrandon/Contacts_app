@@ -9,6 +9,7 @@ import {
   Modal,
   ModalHeader,
   ModalBody,
+  ModalFooter,
 } from 'react-bootstrap';
 import AddContact from '../AddContact/AddContact';
 
@@ -35,6 +36,9 @@ const SearchBar = () => {
         <ModalBody>
           <AddContact />
         </ModalBody>
+        <ModalFooter>
+          <Button>Add</Button>
+        </ModalFooter>
       </Modal>
       <Container className={styles.SearchField}>
         <Button className={styles.SearchButton}>Submit</Button>

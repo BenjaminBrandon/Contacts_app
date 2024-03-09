@@ -1,8 +1,6 @@
 'use client';
 import React, { useState } from 'react';
-import { Container, Modal } from 'react-bootstrap';
 import SearchBar from './SearchBar/SearchBar';
-import AddContact from './AddContact/AddContact';
 
 const Contacts = () => {
   const [search, setSearch] = useState<string>('');
@@ -16,7 +14,6 @@ const Contacts = () => {
         searchFn={searchFn}
         search={search}
       />
-      <AddContact />
     </div>
   );
 };
