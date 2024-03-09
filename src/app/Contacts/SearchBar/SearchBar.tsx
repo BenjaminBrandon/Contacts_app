@@ -9,6 +9,11 @@ import {
 } from 'react-bootstrap';
 
 const SearchBar = () => {
+  const [show, setShow] = useState(false);
+
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
+
   return (
     <Navbar
       className={styles.SearchBarContainer}
@@ -16,7 +21,7 @@ const SearchBar = () => {
     >
       <Container>
         <Navbar.Brand href="#home">Contacts</Navbar.Brand>
-        <Button>New Contact</Button>
+        <Button onClick={handleShow}>New Contact</Button>
       </Container>
       <Container className={styles.SearchField}>
         <Button className={styles.SearchButton}>Submit</Button>
