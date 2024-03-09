@@ -6,7 +6,9 @@ import {
   Button,
   Container,
   Navbar,
+  Modal,
 } from 'react-bootstrap';
+import AddContact from '../AddContact/AddContact';
 
 const SearchBar = () => {
   const [show, setShow] = useState(false);
@@ -23,6 +25,12 @@ const SearchBar = () => {
         <Navbar.Brand href="#home">Contacts</Navbar.Brand>
         <Button onClick={handleShow}>New Contact</Button>
       </Container>
+      <Modal
+        show={show}
+        onHide={handleClose}
+      >
+        <AddContact />
+      </Modal>
       <Container className={styles.SearchField}>
         <Button className={styles.SearchButton}>Submit</Button>
         <FloatingLabel

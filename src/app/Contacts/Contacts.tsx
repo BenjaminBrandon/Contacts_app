@@ -1,6 +1,6 @@
 'use client';
 import React, { useState } from 'react';
-import { Container } from 'react-bootstrap';
+import { Container, Modal } from 'react-bootstrap';
 import SearchBar from './SearchBar/SearchBar';
 import AddContact from './AddContact/AddContact';
 
