@@ -32,13 +32,16 @@ const SearchBar = () => {
         show={show}
         onHide={handleClose}
       >
-        <ModalHeader closeButton>
+        <ModalHeader
+          className={styles.modalHeader}
+          closeButton
+        >
           <h3>New Contact</h3>
         </ModalHeader>
-        <ModalBody>
+        <ModalBody className={styles.modalBody}>
           <AddContact />
         </ModalBody>
-        <ModalFooter>
+        <ModalFooter className={styles.modalFooter}>
           <Button
             className={styles.SearchButton}
             onClick={handleClose}
