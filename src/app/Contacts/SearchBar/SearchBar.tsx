@@ -7,6 +7,8 @@ import {
   Container,
   Navbar,
   Modal,
+  ModalHeader,
+  ModalBody,
 } from 'react-bootstrap';
 import AddContact from '../AddContact/AddContact';
 
@@ -23,13 +25,16 @@ const SearchBar = () => {
     >
       <Container>
         <Navbar.Brand href="#home">Contacts</Navbar.Brand>
-        <Button onClick={handleShow}>New Contact</Button>
+        <Button onClick={handleShow}>Add Contact</Button>
       </Container>
       <Modal
         show={show}
         onHide={handleClose}
       >
-        <AddContact />
+        <ModalHeader>New Contact</ModalHeader>
+        <ModalBody>
+          <AddContact />
+        </ModalBody>
       </Modal>
       <Container className={styles.SearchField}>
         <Button className={styles.SearchButton}>Submit</Button>
