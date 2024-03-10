@@ -3,9 +3,7 @@ import { Col, Container, FloatingLabel, Form, Row } from 'react-bootstrap';
 import styles from './AddContact.module.scss';
 
 export const AddContact = () => {
-  const [newContact, setNewContact] = useState<Contact>();
-
-  let contact: Contact = {
+  const [newContact, setNewContact] = useState<Contact>({
     firstName: '',
     lastName: '',
     middleName: '',
@@ -16,11 +14,14 @@ export const AddContact = () => {
     city: '',
     state: '',
     zip: 0,
-  };
+  });
 
-  const handleSetNewContact = () => {
-    setNewContact(contact);
-  };
+  // const changeHandler = e => {
+  //   const { name, value } = e.target;
+  //   setNewContact(prev => {
+  //     return { ...prev, [name]: value };
+  //   });
+  // };
 
   return (
     <Container className={styles.addContactCard}>
@@ -33,6 +34,7 @@ export const AddContact = () => {
             >
               <Form.Control
                 type="text"
+                name="firstName"
                 placeholder="First name"
               />
             </FloatingLabel>
