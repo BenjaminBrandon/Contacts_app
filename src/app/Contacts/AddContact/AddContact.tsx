@@ -5,6 +5,23 @@ import styles from './AddContact.module.scss';
 export const AddContact = () => {
   const [newContact, setNewContact] = useState<Contact>();
 
+  let contact: Contact = {
+    firstName: '',
+    lastName: '',
+    middleName: '',
+    homePhone: 0,
+    cellPhone: 0,
+    workPhone: 0,
+    streetAddress: '',
+    city: '',
+    state: '',
+    zip: 0,
+  };
+
+  const handleSetNewContact = () => {
+    setNewContact(contact);
+  };
+
   return (
     <Container className={styles.addContactCard}>
       <Form>
