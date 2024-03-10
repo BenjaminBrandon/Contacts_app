@@ -3,7 +3,7 @@ import { Col, Container, FloatingLabel, Form, Row } from 'react-bootstrap';
 import styles from './AddContact.module.scss';
 
 export const AddContact = () => {
-  const [newContact, setNewContact] = useState('');
+  const [newContact, setNewContact] = useState<Contact>();
 
   return (
     <Container className={styles.addContactCard}>
