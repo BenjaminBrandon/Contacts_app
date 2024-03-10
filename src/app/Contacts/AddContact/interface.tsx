@@ -1,5 +1,5 @@
 interface Contact {
-  firstName?: string;
+  firstName: string;
   lastName?: string;
   middleName?: string;
   homePhone?: number;
