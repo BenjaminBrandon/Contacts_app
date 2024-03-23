@@ -5,6 +5,7 @@ interface Contact {
   homePhone?: number;
   cellPhone?: number;
   workPhone?: number;
+  email?: string;
   streetAddress?: string;
   city?: string;
   state?: string;

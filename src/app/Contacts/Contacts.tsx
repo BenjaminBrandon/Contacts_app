@@ -22,6 +22,8 @@ const Contacts = () => {
             <ul>
               <li>Home Phone Number</li>
               <li>Cell Phone Number</li>
+              <li>Work Phone Number</li>
+              <li>Email</li>
               <li>Street Address</li>
               <li>City</li>
               <li>State</li>

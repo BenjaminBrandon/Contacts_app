@@ -10,6 +10,7 @@ export const AddContact = () => {
     homePhone: 0,
     cellPhone: 0,
     workPhone: 0,
+    email:'',
     streetAddress: '',
     city: '',
     state: '',
