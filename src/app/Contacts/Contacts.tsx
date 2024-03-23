@@ -20,7 +20,8 @@ const Contacts = () => {
           <CardHeader>Example Contact Name</CardHeader>
           <CardBody>
             <ul>
-              <li>Phone Number</li>
+              <li>Home Phone Number</li>
+              <li>Cell Phone Number</li>
               <li>Street Address</li>
               <li>City</li>
               <li>State</li>
