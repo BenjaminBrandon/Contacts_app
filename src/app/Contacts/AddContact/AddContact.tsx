@@ -10,7 +10,7 @@ export const AddContact = () => {
     homePhone: 0,
     cellPhone: 0,
     workPhone: 0,
-    email:'',
+    email: '',
     streetAddress: '',
     city: '',
     state: '',
@@ -23,6 +23,8 @@ export const AddContact = () => {
   //     return { ...prev, [name]: value };
   //   });
   // };
+
+  //need to add email field into form
 
   return (
     <Container className={styles.addContactCard}>
