@@ -33,7 +33,7 @@ export const AddContact = () => {
           <Col>
             <FloatingLabel
               controlId="floatingSearch"
-              label="First name"
+              label="First"
             >
               <Form.Control
                 type="text"
@@ -45,22 +45,24 @@ export const AddContact = () => {
           <Col>
             <FloatingLabel
               controlId="floatingSearch"
-              label="Last name"
+              label="Middle"
             >
               <Form.Control
                 type="text"
-                placeholder="Last name"
+                name="middleName"
+                placeholder="Middle name"
               />
             </FloatingLabel>
           </Col>
           <Col>
             <FloatingLabel
               controlId="floatingSearch"
-              label="Middle name"
+              label="Last"
             >
               <Form.Control
                 type="text"
-                placeholder="Middle name"
+                name="lastName"
+                placeholder="Last name"
               />
             </FloatingLabel>
           </Col>
