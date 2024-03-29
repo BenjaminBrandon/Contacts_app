@@ -18,7 +18,6 @@ const Contacts = () => {
       <div>
         <Card>
           <CardHeader>Example Contact Name</CardHeader>
-          //uses variables for first middle and last names
           <CardBody>
             <ul>
               <li>Home Phone Number</li>
