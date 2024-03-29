@@ -75,6 +75,7 @@ export const AddContact = () => {
             >
               <Form.Control
                 type="text"
+                name="homePhone"
                 placeholder="Home phone"
               />
             </FloatingLabel>
@@ -82,10 +83,11 @@ export const AddContact = () => {
           <Col>
             <FloatingLabel
               controlId="floatingSearch"
-              label="Cell phone"
+              label="Cell"
             >
               <Form.Control
                 type="text"
+                name="cellPhone"
                 placeholder="Cell phone"
               />
             </FloatingLabel>
