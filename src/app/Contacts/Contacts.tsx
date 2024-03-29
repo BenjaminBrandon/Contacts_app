@@ -27,6 +27,7 @@ const Contacts = () => {
               <li>Street Address</li>
               <li>City</li>
               <li>State</li>
+              <li>Birthday</li>
             </ul>
           </CardBody>
         </Card>
