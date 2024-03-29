@@ -109,6 +109,20 @@ export const AddContact = () => {
           <Col>
             <FloatingLabel
               controlId="floatingSearch"
+              label="Email"
+            >
+              <Form.Control
+                type="text"
+                name="email"
+                placeholder="Email"
+              />
+            </FloatingLabel>
+          </Col>
+        </Row>
+        <Row className="g-3 p-2 md-3">
+          <Col>
+            <FloatingLabel
+              controlId="floatingSearch"
               label="Street address"
             >
               <Form.Control
