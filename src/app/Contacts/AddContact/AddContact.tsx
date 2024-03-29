@@ -95,10 +95,11 @@ export const AddContact = () => {
           <Col>
             <FloatingLabel
               controlId="floatingSearch"
-              label="Work phone"
+              label="Work"
             >
               <Form.Control
                 type="text"
+                name="workPhone"
                 placeholder="Work phone"
               />
             </FloatingLabel>
