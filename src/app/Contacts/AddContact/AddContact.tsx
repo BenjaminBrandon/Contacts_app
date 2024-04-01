@@ -229,6 +229,7 @@ export const AddContact = () => {
             >
               <Form.Control
                 type="date"
+                name="birthday"
                 placeholder="Birthday"
               />
             </FloatingLabel>
