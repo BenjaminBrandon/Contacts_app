@@ -215,6 +215,7 @@ export const AddContact = () => {
             >
               <Form.Control
                 type="text"
+                name="zipCode"
                 placeholder="Zip Code"
               />
             </FloatingLabel>
