@@ -127,6 +127,7 @@ export const AddContact = () => {
             >
               <Form.Control
                 type="text"
+                name="streetAddress"
                 placeholder="Street address"
               />
             </FloatingLabel>
