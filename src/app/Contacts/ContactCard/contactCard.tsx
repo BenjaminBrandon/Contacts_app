@@ -24,3 +24,4 @@ const contactCard = () => {
 };
 
 export default contactCard;
+//import state and run a map to display all contact data
