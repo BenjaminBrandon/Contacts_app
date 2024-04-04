@@ -2,6 +2,8 @@ import React from 'react';
 import { Card, CardBody, CardHeader, Container } from 'react-bootstrap';
 
 const contactCard = (contact: Contact) => {
+  // const {firstName, lastName, } = {contact}
+
   return (
     <Container>
       <Card>
