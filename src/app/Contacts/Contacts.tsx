@@ -1,10 +1,12 @@
 'use client';
 import React, { useState } from 'react';
 import SearchBar from './SearchBar/SearchBar';
+import ContactCard from './ContactCard/ContactCard';
 import { Card, CardBody, CardHeader } from 'react-bootstrap';
 
 const Contacts = () => {
   const [search, setSearch] = useState<string>('');
+  const [contacts, setContacts] = useState({});
 
   const searchFn = (text: string) => {
     setSearch(text);
@@ -16,6 +18,7 @@ const Contacts = () => {
         search={search}
       />
       <div>
+        <ContactCard contact={contacts} />
         <Card>
           <CardHeader>Example Contact Name</CardHeader>
           <CardBody>

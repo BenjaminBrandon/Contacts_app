@@ -1,7 +1,7 @@
 import React from 'react';
 import { Card, CardBody, CardHeader, Container } from 'react-bootstrap';
 
-const contactCard = (contact: Contact) => {
+const ContactCard = (contact: Contact) => {
   // const {firstName, lastName, } = {contact}
 
   return (
@@ -25,5 +25,5 @@ const contactCard = (contact: Contact) => {
   );
 };
 
-export default contactCard;
+export default ContactCard;
 //import state and run a map to display all contact data
