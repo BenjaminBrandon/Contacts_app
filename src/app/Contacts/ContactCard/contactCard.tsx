@@ -1,7 +1,7 @@
 import React from 'react';
 import { Card, CardBody, CardHeader, Container } from 'react-bootstrap';
 
-const contactCard = () => {
+const contactCard = (contact: Contact) => {
   return (
     <Container>
       <Card>
