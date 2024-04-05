@@ -10,6 +10,7 @@ const Contacts = () => {
 
   const searchFn = (text: string) => {
     setSearch(text);
+    console.log(search);
   };
   return (
     <div>
