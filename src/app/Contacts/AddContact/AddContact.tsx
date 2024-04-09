@@ -24,8 +24,6 @@ export const AddContact = () => {
   //   });
   // };
 
-  //need to add email field into form
-
   return (
     <Container className={styles.addContactCard}>
       <Form>
