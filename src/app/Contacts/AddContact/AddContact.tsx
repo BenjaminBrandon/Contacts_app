@@ -17,13 +17,6 @@ export const AddContact = () => {
     zip: 0,
   });
 
-  // const changeHandler = e => {
-  //   const { name, value } = e.target;
-  //   setNewContact(prev => {
-  //     return { ...prev, [name]: value };
-  //   });
-  // };
-
   return (
     <Container className={styles.addContactCard}>
       <Form>
