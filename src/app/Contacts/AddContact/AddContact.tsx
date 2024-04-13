@@ -16,7 +16,7 @@ export const AddContact = () => {
     state: '',
     zip: 0,
   });
-  //placeholder
+
   return (
     <Container className={styles.addContactCard}>
       <Form>
