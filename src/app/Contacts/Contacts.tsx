@@ -6,7 +6,7 @@ import sampleContacts from '../../../public/sampleContacts';
 
 const Contacts = () => {
   const [search, setSearch] = useState<string>('');
-  const [contacts, setContacts] = useState({});
+  const [contacts, setContacts] = useState(sampleContacts);
 
   const searchFn = (text: string) => {
     setSearch(text);
@@ -19,7 +19,7 @@ const Contacts = () => {
         search={search}
       />
       <div>
-        {sampleContacts.map(contact => {
+        {contacts.map(contact => {
           return <ContactCard contact={contacts} />;
         })}
       </div>
