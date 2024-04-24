@@ -3,7 +3,7 @@ import { Card, CardBody, CardHeader, Container } from 'react-bootstrap';
 
 const ContactCard = (nextContact: Contact) => {
   // const {firstName, lastName, } = {contact}
-
+  console.log('new contact:', nextContact);
   return (
     <Container>
       <Card>
