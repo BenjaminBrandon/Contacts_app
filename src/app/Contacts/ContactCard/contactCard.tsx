@@ -1,13 +1,13 @@
 import React from 'react';
 import { Card, CardBody, CardHeader, Container } from 'react-bootstrap';
 
-const ContactCard = (contact: Contact) => {
+const ContactCard = (nextContact: Contact) => {
   // const {firstName, lastName, } = {contact}
 
   return (
     <Container>
       <Card>
-        <CardHeader>Example Contact Name</CardHeader>
+        <CardHeader>{nextContact.firstName}</CardHeader>
         <CardBody>
           <ul>
             <li>Home Phone Number</li>

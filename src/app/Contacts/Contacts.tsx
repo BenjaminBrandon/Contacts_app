@@ -20,7 +20,7 @@ const Contacts = () => {
       />
       <div>
         {contacts.map(contact => {
-          return <ContactCard contact={contacts} />;
+          return <ContactCard nextContact={contact} />;
         })}
       </div>
     </div>
