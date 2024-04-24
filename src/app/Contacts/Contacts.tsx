@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import SearchBar from './SearchBar/SearchBar';
 import ContactCard from './ContactCard/ContactCard';
 import { Card, CardBody, CardHeader } from 'react-bootstrap';
+import sampleContacts from '../../../public/sampleContacts';
 
 const Contacts = () => {
   const [search, setSearch] = useState<string>('');
@@ -19,6 +20,9 @@ const Contacts = () => {
         search={search}
       />
       <div>
+        {sampleContacts.map(contact => {
+          return <ContactCard contact={contacts} />;
+        })}
         <ContactCard contact={contacts} />
       </div>
     </div>
