@@ -22,7 +22,6 @@ const Contacts = () => {
         {sampleContacts.map(contact => {
           return <ContactCard contact={contacts} />;
         })}
-        <ContactCard contact={contacts} />
       </div>
     </div>
   );
