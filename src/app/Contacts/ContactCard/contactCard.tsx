@@ -5,7 +5,20 @@ const ContactCard = ({ nextContact }: Contact) => {
   // const {firstName, lastName, } = {contact}
   // console.log('new contact:', nextContact);
   // console.log('new contact name:', nextContact.firstName);
-  let { firstName, lastName } = nextContact;
+  let {
+    firstName,
+    lastName,
+    middleName,
+    homePhone,
+    cellPhone,
+    workPhone,
+    email,
+    streetAddress,
+    city,
+    state,
+    zip,
+  } = nextContact;
+
   return (
     <Container>
       <Card>
