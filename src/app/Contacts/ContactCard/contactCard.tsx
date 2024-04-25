@@ -28,10 +28,11 @@ const ContactCard = ({ nextContact }: Contact) => {
             <li>{homePhone}</li>
             <li>{cellPhone}</li>
             <li>{workPhone}</li>
-            <li>Email</li>
-            <li>Street Address</li>
-            <li>City</li>
-            <li>State</li>
+            <li>{email}</li>
+            <li>{streetAddress}</li>
+            <li>{city}</li>
+            <li>{state}</li>
+            <li>{zip}</li>
             <li>Birthday</li>
           </ul>
         </CardBody>
