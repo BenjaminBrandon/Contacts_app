@@ -4,6 +4,7 @@ import SearchBar from './SearchBar/SearchBar';
 import ContactCard from './ContactCard/ContactCard';
 import sampleContacts from '../../../public/sampleContacts';
 import { Container, Row } from 'react-bootstrap';
+import styles from './contacts.module.scss';
 
 const Contacts = () => {
   const [search, setSearch] = useState<string>('');
@@ -14,7 +15,7 @@ const Contacts = () => {
     console.log(search);
   };
   return (
-    <div>
+    <div className={styles.contactsBody}>
       <SearchBar
         searchFn={searchFn}
         search={search}
