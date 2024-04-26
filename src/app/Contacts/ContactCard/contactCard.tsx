@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card, CardBody, CardHeader, Container } from 'react-bootstrap';
+import { Card, CardBody, CardHeader, Col, Container } from 'react-bootstrap';
 
 const ContactCard = ({ nextContact }: Contact) => {
   // const {firstName, lastName, } = {contact}
@@ -20,7 +20,7 @@ const ContactCard = ({ nextContact }: Contact) => {
   } = nextContact;
 
   return (
-    <Container>
+    <Col>
       <Card>
         <CardHeader>{firstName + ' ' + middleName + ' ' + lastName}</CardHeader>
         <CardBody>
@@ -37,7 +37,7 @@ const ContactCard = ({ nextContact }: Contact) => {
           </ul>
         </CardBody>
       </Card>
-    </Container>
+    </Col>
   );
 };
 
