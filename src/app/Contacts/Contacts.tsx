@@ -20,7 +20,7 @@ const Contacts = () => {
         search={search}
       />
       <Container>
-        <Row lg={4}>
+        <Row md={4}>
           {contacts.map(contact => {
             return <ContactCard nextContact={contact} />;
           })}
