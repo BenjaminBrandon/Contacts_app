@@ -20,7 +20,6 @@ const Contacts = () => {
       />
       <div>
         {contacts.map(contact => {
-          console.log(contact);
           return <ContactCard nextContact={contact} />;
         })}
       </div>
