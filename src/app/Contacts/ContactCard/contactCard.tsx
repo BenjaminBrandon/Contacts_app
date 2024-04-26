@@ -22,7 +22,7 @@ const ContactCard = ({ nextContact }: Contact) => {
   return (
     <Container>
       <Card>
-        <CardHeader>{firstName + ' ' + lastName}</CardHeader>
+        <CardHeader>{firstName + ' ' + middleName + ' ' + lastName}</CardHeader>
         <CardBody>
           <ul>
             <li>{homePhone}</li>
