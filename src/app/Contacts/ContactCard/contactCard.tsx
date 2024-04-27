@@ -24,7 +24,7 @@ const ContactCard = ({ nextContact }: Contact) => {
       <Card>
         <CardHeader>{firstName + ' ' + middleName + ' ' + lastName}</CardHeader>
         <CardBody>
-          <ul>
+          <ListGroup>
             <li>{'Home Phone:' + ' ' + homePhone}</li>
             <li>{'Cell Phone:' + ' ' + cellPhone}</li>
             <li>{'Work Phone:' + ' ' + workPhone}</li>
@@ -34,7 +34,7 @@ const ContactCard = ({ nextContact }: Contact) => {
             <li>{'State:' + ' ' + state}</li>
             <li>{'Zip code:' + ' ' + zip}</li>
             <li>Birthday</li>
-          </ul>
+          </ListGroup>
         </CardBody>
       </Card>
     </Col>
