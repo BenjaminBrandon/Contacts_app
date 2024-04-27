@@ -32,15 +32,15 @@ const ContactCard = ({ nextContact }: Contact) => {
         <CardHeader>{firstName + ' ' + middleName + ' ' + lastName}</CardHeader>
         <CardBody>
           <ListGroup>
-            <ListGroup.Item>{'Home Phone:' + ' ' + homePhone}</li>
-            <ListGroup.Item>{'Cell Phone:' + ' ' + cellPhone}</li>
-            <ListGroup.Item>{'Work Phone:' + ' ' + workPhone}</li>
-            <ListGroup.Item>{'Email:' + ' ' + email}</li>
-            <ListGroup.Item>{'Address:' + ' ' + streetAddress}</li>
-            <ListGroup.Item>{'City:' + ' ' + city}</li>
-            <ListGroup.Item>{'State:' + ' ' + state}</li>
-            <ListGroup.Item>{'Zip code:' + ' ' + zip}</li>
-            <ListGroup.Item>Birthday</li>
+            <ListGroup.Item>{'Home Phone:' + ' ' + homePhone}</ListGroup.Item>
+            <ListGroup.Item>{'Cell Phone:' + ' ' + cellPhone}</ListGroup.Item>
+            <ListGroup.Item>{'Work Phone:' + ' ' + workPhone}</ListGroup.Item>
+            <ListGroup.Item>{'Email:' + ' ' + email}</ListGroup.Item>
+            <ListGroup.Item>{'Address:' + ' ' + streetAddress}</ListGroup.Item>
+            <ListGroup.Item>{'City:' + ' ' + city}</ListGroup.Item>
+            <ListGroup.Item>{'State:' + ' ' + state}</ListGroup.Item>
+            <ListGroup.Item>{'Zip code:' + ' ' + zip}</ListGroup.Item>
+            <ListGroup.Item>Birthday</ListGroup.Item>
           </ListGroup>
         </CardBody>
       </Card>
