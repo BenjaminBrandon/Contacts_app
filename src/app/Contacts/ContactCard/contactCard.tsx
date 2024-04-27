@@ -1,5 +1,12 @@
 import React from 'react';
-import { Card, CardBody, CardHeader, Col, Container } from 'react-bootstrap';
+import {
+  Card,
+  CardBody,
+  CardHeader,
+  Col,
+  Container,
+  ListGroup,
+} from 'react-bootstrap';
 
 const ContactCard = ({ nextContact }: Contact) => {
   // const {firstName, lastName, } = {contact}
@@ -25,15 +32,15 @@ const ContactCard = ({ nextContact }: Contact) => {
         <CardHeader>{firstName + ' ' + middleName + ' ' + lastName}</CardHeader>
         <CardBody>
           <ListGroup>
-            <li>{'Home Phone:' + ' ' + homePhone}</li>
-            <li>{'Cell Phone:' + ' ' + cellPhone}</li>
-            <li>{'Work Phone:' + ' ' + workPhone}</li>
-            <li>{'Email:' + ' ' + email}</li>
-            <li>{'Address:' + ' ' + streetAddress}</li>
-            <li>{'City:' + ' ' + city}</li>
-            <li>{'State:' + ' ' + state}</li>
-            <li>{'Zip code:' + ' ' + zip}</li>
-            <li>Birthday</li>
+            <ListGroup.Item>{'Home Phone:' + ' ' + homePhone}</li>
+            <ListGroup.Item>{'Cell Phone:' + ' ' + cellPhone}</li>
+            <ListGroup.Item>{'Work Phone:' + ' ' + workPhone}</li>
+            <ListGroup.Item>{'Email:' + ' ' + email}</li>
+            <ListGroup.Item>{'Address:' + ' ' + streetAddress}</li>
+            <ListGroup.Item>{'City:' + ' ' + city}</li>
+            <ListGroup.Item>{'State:' + ' ' + state}</li>
+            <ListGroup.Item>{'Zip code:' + ' ' + zip}</li>
+            <ListGroup.Item>Birthday</li>
           </ListGroup>
         </CardBody>
       </Card>
