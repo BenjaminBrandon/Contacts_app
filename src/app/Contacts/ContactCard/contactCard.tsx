@@ -26,7 +26,7 @@ const ContactCard = ({ nextContact }: Contact) => {
         <CardBody>
           <ul>
             <li>{'Home Phone:' + ' ' + homePhone}</li>
-            <li>{cellPhone}</li>
+            <li>{'Cell Phone:' + ' ' + cellPhone}</li>
             <li>{workPhone}</li>
             <li>{email}</li>
             <li>{streetAddress}</li>
