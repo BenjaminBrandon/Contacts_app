@@ -27,12 +27,12 @@ const ContactCard = ({ nextContact }: Contact) => {
           <ul>
             <li>{'Home Phone:' + ' ' + homePhone}</li>
             <li>{'Cell Phone:' + ' ' + cellPhone}</li>
-            <li>{workPhone}</li>
-            <li>{email}</li>
-            <li>{streetAddress}</li>
-            <li>{city}</li>
-            <li>{state}</li>
-            <li>{zip}</li>
+            <li>{'Work Phone:' + ' ' + workPhone}</li>
+            <li>{'Email:' + ' ' + email}</li>
+            <li>{'Address:' + ' ' + streetAddress}</li>
+            <li>{'City:' + ' ' + city}</li>
+            <li>{'State:' + ' ' + state}</li>
+            <li>{'Zip code:' + ' ' + zip}</li>
             <li>Birthday</li>
           </ul>
         </CardBody>
