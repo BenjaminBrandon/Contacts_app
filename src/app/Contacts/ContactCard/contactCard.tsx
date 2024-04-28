@@ -49,4 +49,3 @@ const ContactCard = ({ nextContact }: Contact) => {
 };
 
 export default ContactCard;
-//////
