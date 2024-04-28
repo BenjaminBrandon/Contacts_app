@@ -49,4 +49,3 @@ const ContactCard = ({ nextContact }: Contact) => {
 };
 
 export default ContactCard;
-//import state and run a map to display all contact data
