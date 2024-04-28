@@ -9,9 +9,6 @@ import {
 } from 'react-bootstrap';
 
 const ContactCard = ({ nextContact }: Contact) => {
-  // const {firstName, lastName, } = {contact}
-  // console.log('new contact:', nextContact);
-  // console.log('new contact name:', nextContact.firstName);
   let {
     firstName,
     lastName,
