@@ -37,4 +37,7 @@ const Contacts = () => {
 export default Contacts;
 
 //Create list items using names in column on left side of app
-//
+//create popout for selected name in contact
+//create scrollable window seperate from selected focus contact
+//add alphabet sections
+//create sorting function alphabetically for added contacts
