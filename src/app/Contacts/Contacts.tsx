@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import SearchBar from './SearchBar/SearchBar';
 import ContactCard from './ContactCard/ContactCard';
 import sampleContacts from '../../../public/sampleContacts';
-import { Container, Row } from 'react-bootstrap';
+import { Card, Container, Row } from 'react-bootstrap';
 import styles from './contacts.module.scss';
 
 const Contacts = () => {
@@ -29,6 +29,9 @@ const Contacts = () => {
             return <ContactCard nextContact={contact} />;
           })}
         </Row>
+      </Container>
+      <Container className="focusContact">
+        <Card>Dummy contact placement</Card>
       </Container>
     </div>
   );
