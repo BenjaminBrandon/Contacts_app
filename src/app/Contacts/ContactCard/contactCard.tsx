@@ -7,6 +7,7 @@ import {
   Container,
   ListGroup,
 } from 'react-bootstrap';
+import styles from './ContactCard.module.scss';
 
 const ContactCard = ({ nextContact }: Contact) => {
   let {
@@ -25,7 +26,7 @@ const ContactCard = ({ nextContact }: Contact) => {
 
   return (
     <Col>
-      <Card>
+      <Card className={styles.contactCard}>
         <CardHeader>{firstName + ' ' + middleName + ' ' + lastName}</CardHeader>
         <CardBody>
           <ListGroup>
