@@ -1,8 +1,16 @@
 import React from 'react';
-import { Container } from 'react-bootstrap';
+import { Container, ListGroup } from 'react-bootstrap';
 
 const ContactList = () => {
-  return <Container></Container>;
+  const list = {};
+
+  return (
+    <Container>
+      <ListGroup>
+        <ListGroup.Item></ListGroup.Item>
+      </ListGroup>
+    </Container>
+  );
 };
 
 export default ContactList;
