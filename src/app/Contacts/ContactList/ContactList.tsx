@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, ListGroup } from 'react-bootstrap';
 
-const ContactList = () => {
+const ContactList = (contacts: Contact) => {
   const list = {};
 
   return (
