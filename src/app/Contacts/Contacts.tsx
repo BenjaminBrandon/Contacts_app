@@ -21,7 +21,10 @@ const Contacts = () => {
         search={search}
       />
       <Container>
-        <Row md={4}>
+        <Row
+          md={4}
+          gap={5}
+        >
           {contacts.map(contact => {
             return <ContactCard nextContact={contact} />;
           })}
