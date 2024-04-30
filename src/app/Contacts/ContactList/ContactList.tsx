@@ -7,7 +7,9 @@ const ContactList = (contacts: Contact) => {
     { firstName: 'Kyler', lastName: 'Wilddog' },
   ];
 
-  const sort = () => {};
+  const sort = object => {
+    let contacts = {};
+  };
 
   return (
     <Container>
