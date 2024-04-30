@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, ListGroup } from 'react-bootstrap';
+import { Container, ListGroup, ListGroupItem } from 'react-bootstrap';
 
 const ContactList = (contacts: Contact) => {
   const list = {};
@@ -7,7 +7,9 @@ const ContactList = (contacts: Contact) => {
   return (
     <Container>
       <ListGroup>
-        <ListGroup.Item></ListGroup.Item>
+        {list.map(contact => {
+          return <ListGroupItem></ListGroupItem>;
+        })}
       </ListGroup>
     </Container>
   );
