@@ -8,7 +8,7 @@ const ContactList = (contacts: Contact) => {
     <Container>
       <ListGroup>
         {list.map(contact => {
-          return <ListGroupItem></ListGroupItem>;
+          return <ListGroupItem>{contact}</ListGroupItem>;
         })}
       </ListGroup>
     </Container>
