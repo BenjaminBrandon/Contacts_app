@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import SearchBar from './SearchBar/SearchBar';
 import ContactCard from './ContactCard/ContactCard';
+import ContactList from './ContactList/ContactList';
 import sampleContacts from '../../../public/sampleContacts';
 import { Card, Container, Row } from 'react-bootstrap';
 import styles from './contacts.module.scss';
@@ -29,6 +30,9 @@ const Contacts = () => {
             return <ContactCard nextContact={contact} />;
           })}
         </Row>
+      </Container>
+      <Container>
+        <ContactList />
       </Container>
       <Container className="focusContact">
         <Card>Dummy contact placement</Card>
