@@ -3,13 +3,14 @@ import { Container, ListGroup, ListGroupItem } from 'react-bootstrap';
 
 const ContactList = (contacts: Contact) => {
   const [contactList, setContactList] = useState([]);
+
   const list = [
     { firstName: 'Benjamin', lastName: 'Brandon' },
     { firstName: 'Kyler', lastName: 'Wilddog' },
   ];
 
   const sort = object => {
-    let contacts = {};
+    // let contacts = [];
   };
 
   return (
