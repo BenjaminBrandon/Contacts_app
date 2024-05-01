@@ -15,7 +15,7 @@ const ContactList = (contacts: Contact) => {
     // let contacts = [];
     let sorted = object.sort();
     return sorted;
-    console.log('sorted');
+    console.log('sorted', sorted);
   };
 
   sort(list);
