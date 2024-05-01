@@ -5,8 +5,8 @@ const ContactList = (contacts: Contact) => {
   const [contactList, setContactList] = useState([]);
 
   const list = [
-    { firstName: 'Benjamin', lastName: 'Brandon' },
     { firstName: 'Kyler', lastName: 'Wilddog' },
+    { firstName: 'Benjamin', lastName: 'Brandon' },
   ];
 
   console.log('pre sorted list:', list);
@@ -15,7 +15,10 @@ const ContactList = (contacts: Contact) => {
     // let contacts = [];
     let sorted = object.sort();
     return sorted;
+    console.log('sorted');
   };
+
+  sort(list);
 
   return (
     <Container>
