@@ -9,8 +9,12 @@ const ContactList = (contacts: Contact) => {
     { firstName: 'Kyler', lastName: 'Wilddog' },
   ];
 
+  console.log('pre sorted list:', list);
+
   const sort = object => {
     // let contacts = [];
+    let sorted = object.sort();
+    return sorted;
   };
 
   return (
