@@ -19,6 +19,7 @@ const ContactList = (contacts: Contact) => {
   };
 
   sort(list);
+  ////
 
   return (
     <Container>
