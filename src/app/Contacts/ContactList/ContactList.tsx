@@ -24,7 +24,7 @@ const ContactList = (contacts: Contact) => {
 
       return 0;
     });
-    console.log(listSorted);
+    // setContactList(listSorted);
   };
 
   sort(list);
