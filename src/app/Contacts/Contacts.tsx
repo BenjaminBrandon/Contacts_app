@@ -21,7 +21,7 @@ const Contacts = () => {
         searchFn={searchFn}
         search={search}
       />
-      <Container>
+      {/* <Container>
         <Row
           md={4}
           gap={5}
@@ -30,7 +30,7 @@ const Contacts = () => {
             return <ContactCard nextContact={contact} />;
           })}
         </Row>
-      </Container>
+      </Container> */}
       <Container>
         <ContactList />
       </Container>
