@@ -31,7 +31,7 @@ const Contacts = () => {
           })}
         </Row>
       </Container> */}
-      <Container>
+      <Container className={styles.contactList}>
         <ContactList />
       </Container>
       <Container className="focusContact">
