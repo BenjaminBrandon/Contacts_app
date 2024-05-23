@@ -26,7 +26,7 @@ const ContactList = (contacts: Contact) => {
     });
     // setContactList(listSorted);
   };
-
+  //
   sort(list);
 
   return (
