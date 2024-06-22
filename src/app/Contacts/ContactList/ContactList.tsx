@@ -41,4 +41,3 @@ const ContactList = (contacts: Contact) => {
 };
 
 export default ContactList;
-//
